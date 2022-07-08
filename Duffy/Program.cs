@@ -24,6 +24,12 @@ app.UseDirectoryBrowser(new DirectoryBrowserOptions
     RequestPath = "/Barniskey-Cemetery"
 });
 
+app.UseDirectoryBrowser(new DirectoryBrowserOptions
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.WebRootPath, "Bernard-And-Alice-Duffy")),
+    RequestPath = "/Bernard-And-Alice-Duffy"
+});
+
 app.UseRouting();
 
 app.UseAuthorization();
