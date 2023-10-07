@@ -82,7 +82,7 @@ namespace Duffy.Pages.V1
                 // Previously:
                 //  //www.CareFusion.com/
                 Uri = "//www.Natus.com/",
-                HttpsAvailable = false,
+                HttpsAvailable = true,
                 ShowAlways = true
             },
             new LinkInfo
@@ -91,7 +91,9 @@ namespace Duffy.Pages.V1
                 Name = "Sony Broadcast & Professional",
                 // Previously:
                 //  //www.Sony.co.uk/Biz
-                Uri = "//www.Sony.co.uk/Pro",
+                //  //www.Sony.co.uk/Pro
+                //  6-October-2023: Redirects to: https://pro.sony/en_GB/
+                Uri = "//Pro.Sony/",
                 HttpsAvailable = true,
                 ShowAlways = true
             },
@@ -176,7 +178,7 @@ namespace Duffy.Pages.V1
             {
                 Reference = "R4001",
                 Name = "Rapture Therapy Web Site",
-                Uri = "//Therapy.Rapture.global/",
+                Uri = "//www.RaptureTherapy.global/",
                 HttpsAvailable = true,
                 ShowAlways = true
             },
