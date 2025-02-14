@@ -30,6 +30,12 @@ app.UseDirectoryBrowser(new DirectoryBrowserOptions
     RequestPath = "/Bernard-And-Alice-Duffy"
 });
 
+app.UseDirectoryBrowser(new DirectoryBrowserOptions
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.WebRootPath, "Birthdays")),
+    RequestPath = "/Birthdays"
+});
+
 app.UseRouting();
 
 app.UseAuthorization();
