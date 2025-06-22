@@ -38,7 +38,7 @@ namespace Duffy.Pages.V1
             new LinkInfo
             {
                 Reference = "R1002",
-                Name = "Éamonn Anthony Duffy Web Site",
+                Name = "Eamonn Anthony Duffy Web Site",
                 Uri = "//www.EamonnDuffy.com",
                 HttpsAvailable = true,
                 ShowAlways = true
